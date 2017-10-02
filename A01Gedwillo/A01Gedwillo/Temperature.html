@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sam's Site</title>
+        <link type="text/css" rel="stylesheet" href="AC.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300" rel="stylesheet">
+    </head>
+    <body class="back">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="A01Gedwillo.html">Sam's Site</a>
+                </div>
+                <ul class="nav navbar-nav">
+                <li class="active"><a href="Temperature.html">Temperature Conversion</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Code from addthis.com -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_google_plus"></a>
+                        <a class="a2a_button_reddit"></a>
+                        <a class="a2a_button_tumblr"></a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <h1 id="title2">Temperature Conversion</h1>
+        <article id="body"><br>
+            Enter a number in one of the boxes and press the convert button.<br><br>
+            <label>Fahrenheit (F):</label>
+            <input type="text" id="F" maxlength="10" style="width:250px; text-align:center"/><br><br>
+            <label>Celsius (C):</label>
+            <input type="text" id="C" maxlength="10" style="width:250px; text-align:center"/><br><br>
+            <button onclick="app.launch()" class="btn btn-lg btn-primary">Convert</button><br><br>
+            <!-- Put a Jumbotron with answer here. -->
+        </article>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js"></script>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <script src="functions.js"></script>
+    </body>
+</html>
