@@ -1,0 +1,62 @@
+.back {
+	background-image: url("bkgrnd.jpg");
+	background-size: tile;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+/*from abeautifulsite.net*/
+.img-circle {
+	border-radius: 50%;
+	max-height: 250px;
+	max-width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body {
+	background-color:#a5c5f7;
+	margin: auto;
+	max-width: 600px;
+	border-style: solid;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 25px;
+}
+
+#text{
+	text-align: center;
+}
+
+#title {
+	background-color:black;
+	color: white;
+	max-width: 275px;
+	margin: auto;
+	border-style: solid;
+	border-color:black;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	border-radius: 25px;
+}
+
+#title2 {
+	background-color:black;
+	color: white;
+	max-width: 400px;
+	margin: auto;
+	border-style: solid;
+	border-color:black;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	border-radius: 25px;
+}
+
+#questiontitle {
+	background-color:black;
+	color: white;
+	max-width: 600px;
+	font-family: 'Lobster', cursive;
+}
+	
